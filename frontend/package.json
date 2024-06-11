@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -12,25 +12,25 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
-    "ajv": "^6.12.4",
+    "ajv": "^8.16.0",
     "ant-design-vue": "^1.7.8",
-    "core-js": "^3.15.1",
-    "gojs": "^2.1.53",
-    "nuxt": "^2.15.7",
-    "qs": "^6.10.1",
-    "vue-select": "^3.16.0",
+    "core-js": "^3.37.1",
+    "gojs": "^3.0.4",
+    "nuxt": "^2.17.3",
+    "qs": "^6.12.1",
+    "vue-select": "^3.20.3",
     "vue-text-highlight": "^2.0.10",
     "vuedraggable": "^2.24.3"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.14.7",
-    "@nuxtjs/eslint-config": "^6.0.1",
-    "@nuxtjs/eslint-module": "^3.0.2",
+    "@babel/eslint-parser": "^7.24.7",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/proxy": "^2.1.0",
-    "eslint": "^7.29.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-vue": "^7.12.1",
-    "prettier": "^2.3.2"
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "prettier": "^3.3.1"
   }
 }
